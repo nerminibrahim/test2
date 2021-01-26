@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');">
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+    </style> -->
+</head>
+
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-- quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+            <!-- add author element -->
+        </div>
+        <div id="quote-author">
+            <span id="author"> </span>
+        </div>
+        <!-- buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="tweet this"><i class="fab fa-twitter"></i></button>
+            <button id="new-quote">New Quote</button>
+            <!-- i gave a title in case some one hover over it, it can give explanation -->
+        </div>
+
+    </div>
+    <!-- add loading div -->
+    <div class="loader" id="loader"></div>
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
